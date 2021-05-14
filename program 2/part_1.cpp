@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 #include <deque>
 #include <algorithm>
 #include <string>
@@ -11,7 +10,7 @@ struct node{
 	int freq;
 	node *lchild;
 	node *rchild;
-	string HuffmanCode;
+	int HuffmanCode[200];
 	int length;
 };
 
@@ -20,31 +19,33 @@ bool comp(node *a, node *b){
 }
 
 deque<node*> forest, Alphabets;
-node *ptr;
 
-void getHuffmanCode(node *root, string code, int length){
+void getHuffmanCode(node *root, int *code, int length){
+	node *ptr;
 	if(root->lchild){
-		code = "0" + code;
-		ptr = root->lchild;
-		ptr->length = length + 1;
-		ptr->HuffmanCode = code;
-		root->lchild = ptr;
-		getHuffmanCode(root->lchild, code, length + 1);
-	}
-	if(root->rchild){
-		code = "1" + code;
-		ptr = root->rchild;
-		ptr->length = length + 1;
-		ptr->HuffmanCode = code;
-		root->rchild = ptr;
-		getHuffmanCode(root->rchild, code, length + 1);
-	}
+        code[length] = 1;
+        ptr = root->lchild;
+        ptr->length = length + 1;
+        for(int i = 0; i <= length; i++){
+            ptr->HuffmanCode[i] = code[i];
+        }
+        getHuffmanCode(root->lchild, code, length + 1);
+    }
+    
+    if(root->rchild){
+        code[length] = 0;
+        ptr = root->rchild;
+        ptr->length = length + 1;
+        for(int i = 0; i <= length; i++){
+            ptr->HuffmanCode[i] = code[i];
+        }
+        getHuffmanCode(root->rchild, code, length + 1);
+    }
 }
-
-int main()
-{
+int main(int argc, char const *argv[]){
 	int Alphabets_freq[26] = {7, 2, 2, 3, 11, 2, 2, 6, 6, 1, 1, 4, 3,
 							7, 9, 2, 1, 6, 6, 8, 4, 1, 2, 1, 2, 1};
+	node *ptr;
 	//Construct a forest for Alphabets
 	for(int i = 0; i < 26; i++){
 		ptr = new node;
@@ -67,7 +68,7 @@ int main()
 		forest.push_back(ptr);
 	}
 
-	string code = "";	//huffman code
+	int code[200];	//huffman code
 	ptr = forest.front();	//root
 	getHuffmanCode(ptr, code, 0);	
 
