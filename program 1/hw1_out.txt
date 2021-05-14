@@ -1,0 +1,469 @@
+How many time unit you want to simulate?
+1000
+Time = 1
+Step 1 : 
+landing plane : (1, 3), (3, 10), 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (1, 3), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : (3, 10), 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 2 : 
+takeoff plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (1, 3), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : (3, 10), 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 3 : 
+emergency plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (1, 3), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : (3, 10), 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 4 : 
+
+Runway1(1876947872)
+L1 : 
+L2 : 
+T : 
+
+Runway2(1)
+L1 : 
+L2 : 
+T : 
+
+Runway3(3)
+L1 : 
+L2 : 
+T : 
+
+Runway4(48)
+L1 : 
+L2 : 
+T : 
+
+Time = 2
+Step 1 : 
+landing plane : (5, 6), 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (5, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 2 : 
+takeoff plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (5, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 3 : 
+emergency plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (5, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 4 : 
+
+Runway1(1876947872)
+L1 : 
+L2 : 
+T : 
+
+Runway2(5)
+L1 : 
+L2 : 
+T : 
+
+Runway3(3)
+L1 : 
+L2 : 
+T : 
+
+Runway4(48)
+L1 : 
+L2 : 
+T : 
+
+Time = 3
+Step 1 : 
+landing plane : (7, 6), 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (7, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 2 : 
+takeoff plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (7, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 3 : 
+emergency plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (7, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 4 : 
+
+Runway1(1876947872)
+L1 : 
+L2 : 
+T : 
+
+Runway2(7)
+L1 : 
+L2 : 
+T : 
+
+Runway3(3)
+L1 : 
+L2 : 
+T : 
+
+Runway4(48)
+L1 : 
+L2 : 
+T : 
+
+Time = 4
+Step 1 : 
+landing plane : (9, 6), (11, 5), 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (9, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : (11, 5), 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 2 : 
+takeoff plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (9, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : (11, 5), 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 3 : 
+emergency plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : (9, 6), 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : (11, 5), 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 4 : 
+
+Runway1(1876947872)
+L1 : 
+L2 : 
+T : 
+
+Runway2(9)
+L1 : 
+L2 : 
+T : 
+
+Runway3(11)
+L1 : 
+L2 : 
+T : 
+
+Runway4(48)
+L1 : 
+L2 : 
+T : 
+
+Time = 5
+Step 1 : 
+landing plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway2(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 2 : 
+takeoff plane : (0), (2), (4), 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : (0), 
+
+Runway2(-1)
+L1 : 
+L2 : 
+T : (2), 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : (4), 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 3 : 
+emergency plane : 
+
+Runway1(-1)
+L1 : 
+L2 : 
+T : (0), 
+
+Runway2(-1)
+L1 : 
+L2 : 
+T : (2), 
+
+Runway3(-1)
+L1 : 
+L2 : 
+T : (4), 
+
+Runway4(-1)
+L1 : 
+L2 : 
+T : 
+
+Step 4 : 
+
+Runway1(0)
+L1 : 
+L2 : 
+T : 
+
+Runway2(2)
+L1 : 
+L2 : 
+T : 
+
+Runway3(4)
+L1 : 
+L2 : 
+T : 
+
+Runway4(48)
+L1 : 
+L2 : 
+T : 
+
+How many time unit you want to simulate : 1000
+average landing waiting time : 1.05197(s)
+average takeoff waiting time : 2.91104(s)
+average fuel saved : 4.39474(ml)
+total plane in emergency : 159
+total plane crashed : 0
+Program ended with exit code: 0
