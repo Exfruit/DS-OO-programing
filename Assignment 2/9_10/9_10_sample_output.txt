@@ -1,0 +1,2 @@
+Get MST's weight 23 by Prim's algorithm.
+Get MST's weight 23 by Sollin's algorithm.
