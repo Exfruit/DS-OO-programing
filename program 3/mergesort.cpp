@@ -41,15 +41,22 @@ void yabai_mergesort(int arr[], int front, int end){
         	}
         }
         L[mid + 1 - front] = MAX, R[end - mid] = MAX;
+        // print in detail 
+        // begin
         cout << "L: ";
         print_arr(L, mid + 1 - front);
         cout << "R: ";
         print_arr(R, end - mid);
         yabai_mergesort(L, front, mid);
         yabai_mergesort(R, front, mid);
+        // end
         merge(arr, L, R, front, end);	//arr => L + R(sorted)
+        // print in detail
+        // begin
         cout << "Merged: ";
         print_arr(arr, end - front + 1);
+        // end
+
     }
 } 
 
